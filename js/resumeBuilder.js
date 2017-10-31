@@ -158,16 +158,35 @@ var work = {
 
 var projects = {
 	"projects": [{
-		"title": "Project 1",
-		"dates": "in progress",
-		"description": "Future project",
-		"url": "",
-		"images": ["images/1.jpg", "images/2.jpg"]
+		"title": "Online portfolio",
+		"dates": "",
+		"description": "My online portfolio",
+		"url": "http://miguelpinto.dx.am/",
+		"images": ["images/portfolio.jpg"]
 	},{
-		"title": "Project 2",
-		"dates": "in progress",
-		"description": "Future project",
-		"images": ["images/3.jpg", "images/4.jpg"]
+		"title": "ERIO",
+		"dates": "",
+		"description": "The European Roma Information Office (ERIO) is an international advocacy organisation that promotes political and public discussion on Roma issues by providing factual and in-depth information on a range of policy issues to European Union institutions, Roma civil organisations, governmental authorities and intergovernmental bodies.",
+		"url": "http://www.erionet.eu/",
+		"images": ["images/erio.jpg"]
+	},{
+		"title": "Shape editor",
+		"dates": "",
+		"description": "Shape editor allows you to create shapes and markers on Google Maps, customising them, and organising them before saving them on a Json file. These shapes are aimed to represent geographical and political divisions such as States, City Neighbourhoods, Districts, Regions, etc.",
+		"url": "https://shape-editor.000webhostapp.com/",
+		"images": ["images/shape-editor.jpg"]
+	},{
+		"title": "Neighbourhood map - Porto",
+		"dates": "",
+		"description": "This site lists points of interest in the city of Porto (Portugal), and displays information and photos relevant to each of them. The user can search for a specific location on the search box in order to narrow the list down, or find a match. Filtering the list by location type is also available. Clicking on a list item or on a map marker will display Foursquare information about that location and up to six Flickr photos.",
+		"url": "https://github.com/MigP/Neighbourhood-map-Porto",
+		"images": ["images/neighbourhood-map-porto.jpg"]
+	},{
+		"title": "Bug attack",
+		"dates": "",
+		"description": "Bug Attack is a game in which you have to cross a road whilst avoiding being hit by frantic bugs. In doing so, you can collect bonuses which give you extra time, points, and lives.",
+		"url": "https://github.com/MigP/Bug-Attack",
+		"images": ["images/bug-attack.jpg"]
 	}],
 	"display": function() {
 	// Creates variables with formatted ptojects data and displays that data
